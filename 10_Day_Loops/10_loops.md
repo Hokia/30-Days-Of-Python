@@ -173,6 +173,11 @@ for letter in language:
 
 for i in range(len(language)):
     print(language[i])
+    
+#Call Back
+i = set()
+i.update(language)
+print(','.join(list(i)))
 ```
 
 - For loop with tuple
